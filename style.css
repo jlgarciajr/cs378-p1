@@ -1,10 +1,9 @@
 body {
     background-color: #152b3b;
-    margin-bottom: 0;
-    padding: 0;
+    margin-bottom:10%;
 }
 
-#logo {
+.logo {
     margin-left: 25%;
     margin-right: auto;
     width: 50%;
@@ -29,14 +28,7 @@ body {
     color: #ebebeb;
 }
 
-#body {
-    height: auto;
-    background-color: #152b3b;
-    margin:0%;
-    padding: 0%;
-}
-
-#item {
+.item {
     width: 100%;
     height: auto;
     margin-top: 3%;
@@ -45,28 +37,28 @@ body {
     background-color: #152b3b;
 }
 
-#photo_backdrop {
+.photo_backdrop {
     background-color: rgba(1,1,1,0.1);
     float: left;
     width: 50%;
     border-radius: 10%;
-    margin: 10% 25% 10% 25%;
+    margin: 0 25% 0 25%;
 }
 
-#item_photo {
+.item_photo {
     width: 50%;
     float: left;
     background-color: #152b3b;
 }
 
-#item_des {
+.item_des {
     width: 50%;
     color: white;
     float: right;
     background-color: #152b3b;
 }
 
-#cost {
+.cost {
     width: 30%;
     float: left;
     text-align: left;
