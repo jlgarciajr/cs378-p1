@@ -1,5 +1,14 @@
 body {
     background-color: #152b3b;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#logo {
+    margin-left: 25%;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10%;
 }
 
 #toptitle {
@@ -8,10 +17,10 @@ body {
     
 }
 
-.main_title {
+.main_text {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:white;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: #098f1d;
 }
 
 .des_text {
@@ -29,40 +38,51 @@ body {
 
 #item {
     width: 100%;
-    height: 20%;
+    height: auto;
+    margin-top: 3%;
     padding: 1%;
+    float: left;
     background-color: #152b3b;
 }
 
 #photo_backdrop {
     background-color: rgba(1,1,1,0.1);
-    object-fit: scale-down;
-    height: 20%;
+    float: left;
+    width: 50%;
+    border-radius: 10%;
+    margin: 10% 25% 10% 25%;
 }
 
 #item_photo {
     width: 50%;
-    height: 20%;
     float: left;
     background-color: #152b3b;
 }
 
 #item_des {
     width: 50%;
-    height: 20%;
     color: white;
     float: right;
     background-color: #152b3b;
 }
 
 #cost {
-    width: 40%;
+    width: 30%;
     float: left;
-    margin: 1%;
+    text-align: left;
+    margin: 0;
 }
 
 button {
     float: right;
-    width: 10%;
+    width: auto;
     margin: 1%;
+    text-align: center;
+    display:block;
+    border: none;
+    border-radius: 35%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0;
+    padding-bottom: 0;
 }
